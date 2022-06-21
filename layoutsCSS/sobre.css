@@ -169,7 +169,7 @@ nav ul ul{
     margin-top: 10%;
     padding: auto;
     border-top: 0.4px solid #FFFF;
-    background-color: #8ad37c;
+    background-color: #60da48;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -181,7 +181,7 @@ address{
 }
 
 .header{
-    background-color:  #8ad37c;
+    background-color:  #60da48;
     height: 560px;
     position: absolute;
     width: 100%;
