@@ -22,11 +22,12 @@ body{
     align-items: center;
     justify-content: space-around;
     padding: 1em;
-    border-bottom: 0.4px solid #FFFF;
+    margin-bottom: 50px;
 }
 
 .cabecalho-imagem{
     height: 100px;
+    margin-top: 1rem;
 }
 
 .cabecalho-menu{
@@ -37,6 +38,8 @@ body{
 .cabecalho-menu-item{
     color: rgb(255, 255, 255);
     font-family: 'Rufina', serif;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
 }
 
 nav ul{
@@ -45,21 +48,20 @@ nav ul{
     position: relative;
 }
 
-.ul-cabecalho li{
+#ul-cabecalho li{
     display: inline-block;
 }
 
-.ul-cabecalho li a{
-    margin-top: 1.5rem;
+#ul-cabecalho li a{
     display: block;
-    padding: 1.65rem;
+    padding: 1rem;
 }
 
-.ul-cabecalho li a:hover{
+#ul-cabecalho li a:hover{
     border-bottom: 0.01px solid rgb(25, 97, 43);
 }
 
-.ul-cabecalho li:hover ul{
+#ul-cabecalho li:hover ul{
     display: flex;
     flex-direction: column;
 }
@@ -74,6 +76,7 @@ nav ul ul{
 }
 
 .conteudo-principal{
+    margin-top: -2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -159,6 +162,10 @@ nav ul ul{
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+
+.footer2-imagem{
+    height: 100px;
 }
 
 address{
@@ -442,17 +449,13 @@ address{
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
         padding: 1em;
         border-bottom: 0.4px solid #FFFF;
         gap: 50px;
     }
 
     .cabecalho li a{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
         padding: 1em;
         margin-left: 1rem;
     }
@@ -474,7 +477,7 @@ address{
         margin-left: -5rem;
     }
     
-    .cabecalho-menu-item{
+    .cabecalho-menu-item {
         color: rgb(255, 255, 255);
         font-family: 'Rufina', serif;
         display: flex;
@@ -487,13 +490,10 @@ address{
         position: relative;
     }
     
-    .ul-cabecalho li{
-        display: inline-block;
-    }
-    
     .ul-cabecalho li a{
         margin-top: 1.5rem;
-        display: block;
+        display: flex;
+        flex-direction: column;
         padding: 1.65rem;
     }
     
@@ -525,6 +525,7 @@ address{
         display: flex;
         flex-direction: column;
         gap: 30px;
+        margin-top: 6rem;
     }
     
     .conteudo-principal-escrito-titulo{
