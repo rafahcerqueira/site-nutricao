@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto criado para o final do semestre com o tema escolhido: Nutrição (Página de nutricionista particular) - aula Desenvolvimento Web - curso Analise e Desenvolvimento de Sistemas - IFSP Campus Boituva">
+    <link rel="stylesheet" href="../layoutsCSS/index.css">
+    <script type="text/javascript" src="../codigosJS/indexBotao.js"></script>
+    <title>Nutri Andressa</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="header"></div>
+        <a class="sobrepor" href="/paginasHTML/index.html"><img class="cabecalho-imagem" src="../imagens/nutricaologo.png" alt="Logo Nutrição"></a>
+        <nav class="cabecalho-menu sobrepor">
+            <div class="menu-burguer">
+                <div class="um"></div>
+                <div class="dois"></div>
+                <div class="tres"></div>
+            </div>
+            <ul id="ul-cabecalho">
+                <li><a class="cabecalho-menu-item" href="../paginasHTML/sobre.html">Sobre</a></li>
+                <li><a class="cabecalho-menu-item" href="../paginasHTML/dicas.html">Dicas</a>
+                    <ul>
+                        <li><a class="cabecalho-menu-item" href="../paginasHTML/dicas.html">Dicas</a>
+                        <li><a class="cabecalho-menu-item" href="https://wa.me/5515991097077" target="_blank">Entre em contato</a>
+                    </ul>
+                </li>
+                <li><a class="cabecalho-menu-item" href="../paginasHTML/cadastro.html">Cadastro</a></li>
+                <li><a class="cabecalho-menu-item" href="https://wa.me/5515991097077" target="_blank">Entre em contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo sobrepor">Nutri Andressa</h1>
+                <h2 class="conteudo-principal-escrito-subtitulo">Sua saúde em primeiro lugar!</h2>
+                <button class="conteudo-principal-botao" onclick="redirecionarWpp()" >Agende sua consulta!</button>
+            </div>
+            <img class="conteudo-principal-imagem sobrepor" src="../imagens/NutricionistaPNG.webp" alt="Imagem da Nutricionista">
+        </section>
+        
+        <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">O que ela faz por você?</h3>
+            <p class="conteudo-secundario-paragrafo">1. <strong>Peso ideal </strong>- A nutricionista irá orientar a sua alimentação, selecionar os alimentos necessários e organizar o seu dia a dia alimentar para que você atinja o peso ideal.</p>
+            <p class="conteudo-secundario-paragrafo">2. <strong>Beneficiar a gestação</strong> - Uma nutricionista durante a gestação é essencial para lhe auxiliar para que você tenha os nutrientes necessários e para a prevenção de diversas complicações comuns na gravidez, como o ganho excessivo de peso e diabetes gestacional.</p>
+            <p class="conteudo-secundario-paragrafo">3. <strong>Prevenção de doenças</strong> - Uma alimentação correta é possível prevenir e controlar doenças como hipertensão arterial e diabetes.</p>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div id="footer123">
+            <div id="footer1">
+                <h1>Institucional</h1>
+                <div id="footer-menu">
+                    <a class="footer-menu-item" href="../paginasHTML/sobre.html">Sobre</a>
+                    <a class="footer-menu-item" href="../paginasHTML/dicas.html">Dicas</a>
+                    <a class="footer-menu-item" href="../paginasHTML/cadastro.html">Cadastro</a>
+                    <a class="footer-menu-item" href="https://wa.me/5515991097077" target="_blank">Entre em contato</a>
+                </div>
+            </div>
+            <div id="footer2">
+                <a class="sobrepor" href="/paginasHTML/index.html"><img class="cabecalho-imagem" src="../imagens/nutricaologo.png" alt="Logo Nutrição"></a><br><br>
+                <address>
+                    <p>
+                        Rafael Cerqueira <br>
+                        <strong>Boituva, SP</strong>
+                    </p>
+                </address>
+            </div>
+            <div id="footer3">
+                <h1 id="footer3-titulo">Redes Sociais</h1>
+                <div id="footer3-item">
+                    <button><img src="/imagens/icone whatsapp.svg" alt="logo whatsapp" value="Whatsapp" onclick="redirecionarWpp()"></button>
+                    <button><img src="/imagens/icone instagram.svg" alt="logo instagram" onclick="redirecionarInsta()"></button>
+                    <button><img src="/imagens/icone email.svg" alt="logo email" onclick="redirecionarEmail()"></button>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

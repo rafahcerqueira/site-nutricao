@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: rgb(25, 97, 43);
+    margin-left: 42.7%;
+    margin-top: 1em;
+} 
+
+#subtitulo {
+    font-family: sans-serif;
+    color: rgb(25, 97, 43);
+    margin-left: 44.8%;
+    margin-bottom: 2%;
+    margin-top: 1%;;
+} 
+
+form{
+    margin-left: 38.56%;
+    margin-right: 30%;
+}
+
+#check{
+    display: inline-block;
+}
+
+fieldset {
+    border: 0;
+}
+
+body{
+    background-color:  rgb(217, 238, 203);
+    font-family: sans-serif;
+    font-size: 1em;
+    color: rgb(25, 97, 43);
+    justify-content: center;
+}
+
+/* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: rgb(25, 97, 43);
+    border-radius: 5px;
+}
+
+/* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+/* Elementos de classe "grupo" no estado da pseudoclasse "after" */
+.grupo:after {
+    clear: both;
+}
+
+#genero{
+    margin-left: 11.55em;
+    margin-top: 2%;
+}
+
+#generomasc{
+    margin-top: 1em;
+    margin-left: 4.6em;
+}
+
+#generofemin{
+    margin-left: 1em;
+}
+
+#generooutros{
+    margin-left: 1em;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: rgb(25, 97, 43);
+    display: block;
+}
+
+/* Elementos de classe "campo" ou "grupo" do <fieldset> */
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+/* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
+.campo input[type="text"], .campo input[type="number"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid rgb(25, 97, 43);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+/* Elementos de classe "campo" do <select> e <option>*/
+.campo select option {
+    padding-right: 1em;
+}
+
+/* Elemento de classe "campo" com a tag <input>, <select> e <textarea> todas com "focus"*/
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background:  #daffe0;
+}
+
+#check{
+    margin-top: 1.5%;
+    margin-left: 19%;
+}
+
+#objetivo{
+    margin-top: 4%;
+    margin-left: 17%;
+}
+
+#objetivo-titulo{
+    margin-left: 17%;
+}
+
+#medidas{
+    margin-left: 20%;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: rgb(25, 97, 43);
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 100%;
+    left: 55.5%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#limpar{
+    top: 100%;
+    left: 44%;
+}
+
+.botao:hover {
+    background: #99e7a6;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+} 
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2em;
+    border-bottom: 0.4px solid #FFFF;
+    background-color: #8ad37c;
+}
+
+.cabecalho-imagem{
+    height: 6.5em;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho-menu-item{
+    color: rgb(255, 255, 255);
+    font-family: 'Rufina', serif;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+}
+
+#ul-cabecalho li{
+    display: inline-block;
+}
+
+#ul-cabecalho li a{
+    display: block;
+    padding: 1rem;
+}
+
+#ul-cabecalho li a:hover{
+    border-bottom: 0.01px solid rgb(25, 97, 43);
+}
+
+#ul-cabecalho li:hover ul{
+    display: flex;
+    flex-direction: column;
+    background-color: #8ad37c;
+}
+
+nav ul ul{
+    display: none;
+    position: absolute;
+}
+
+.rodape{
+    margin-top: 7em;
+    padding: auto;
+    border-top: 0.4px solid #FFFF;
+    background-color: #8ad37c;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+address{
+    font-family: 'Rufina', serif;
+    color: rgb(25, 97, 43);
+}
+
+aside{
+    margin-left: 7%;
+    color: red;
+    width: 21.5%;
+    font-weight: bold;
+}
+
+.header{
+    background-color:  #8ad37c;
+    height: 560px;
+    position: absolute;
+    width: 100%;
+}
+
+.sobrepor{
+    z-index: 2;
+}
+
+#footer123{
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+#footer1, #footer2, #footer3{
+    width: 33.33%;
+}
+
+#footer-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-menu-item{
+    color: rgb(25, 97, 43);
+    font-family: 'Rufina', serif;
+    text-align: start;
+    margin-left: 35%;
+    position: relative;
+}
+
+#footer1 h1{
+    padding-bottom: 20px;
+    color: rgb(25, 97, 43);
+}
+
+.footer-menu-item:hover{
+    border-bottom: 1px solid rgb(25, 97, 43);
+    width: 150px;
+}
+
+#footer3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#footer3 button{
+    width: auto;
+    height: auto;
+    position: relative;
+    background: transparent;
+    border: none;
+}
+
+#footer3 button img{
+    width: 30px;
+    height: 30px;
+    size: 50%;
+    position: relative;
+}
+
+#footer3 button img:hover{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(25, 97, 43);
+}
+
+#footer3 h1{
+    padding-bottom: 20px;
+    color: rgb(25, 97, 43);
+}
+
+#footer3-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background: rgb(217, 238, 203);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+    border-bottom: 0.4px solid #FFFF;
+}
+
+.cabecalho-imagem{
+    height: 100px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho-menu-item{
+    color: rgb(255, 255, 255);
+    font-family: 'Rufina', serif;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+}
+
+#ul-cabecalho li{
+    display: inline-block;
+}
+
+#ul-cabecalho li a{
+    margin-top: 1.5rem;
+    display: block;
+    padding: 1.65rem;
+}
+
+#ul-cabecalho li a:hover{
+    border-bottom: 0.01px solid rgb(25, 97, 43);
+}
+
+#ul-cabecalho li:hover ul{
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul ul{
+    display: none;
+    position: absolute;
+}
+
+.conteudo{
+    margin-bottom: 50px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Rufina', serif;
+    font-weight: 400px;
+    font-size: 6.4rem;
+    color: rgb(255, 255, 255);
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Rufina', serif;
+    font-weight: 400px;
+    font-size: 2.4rem;
+}
+
+.conteudo-principal-botao{
+    background-color: #4b9c3b;
+    color: rgb(255, 255, 255);
+    width: 210px;
+    height: 50px;
+    border: none;
+    box-shadow: 5px 5px 5px #000000;
+    border-radius: 10px;
+    font-family: 'Rufina', serif;
+    font-weight: 400px;
+    font-size: 2.0rem;
+}
+
+.conteudo-principal-botao:hover{
+    background-color: rgba(4, 44, 2, 0.53);
+    cursor: pointer;
+
+}
+
+.conteudo-principal-imagem{
+    padding-top: 40px;
+    height: 430px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #FFFF;
+    padding-top: 48px;
+    font-family: 'Rufina', serif;
+    font-weight: 400px;
+    font-size: 2.0rem;
+    color: rgb(25, 97, 43);
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Rufina', serif;
+    font-weight: 400px;
+    font-size: 2.0rem;
+    color: rgb(25, 97, 43);
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.rodape{
+    margin-top: 10%;
+    padding: auto;
+    border-top: 0.4px solid #FFFF;
+    background-color: #8ad37c;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+address{
+    font-family: 'Rufina', serif;
+    color: rgb(25, 97, 43);
+}
+
+.header{
+    background-color:  #8ad37c;
+    height: 560px;
+    position: absolute;
+    width: 100%;
+}
+
+.sobrepor{
+    z-index: 2;
+}
+
+#footer123{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+#footer1, #footer2, #footer3{
+    width: 33.33%;
+}
+
+#footer-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-menu-item{
+    color: rgb(25, 97, 43);
+    font-family: 'Rufina', serif;
+    text-align: start;
+    margin-left: 227px;
+}
+
+#footer1 h1{
+    padding-bottom: 20px;
+    color: rgb(25, 97, 43);
+}
+
+.footer-menu-item:hover{
+    border-bottom: 1px solid rgb(25, 97, 43);
+    width: 150px;
+}
+
+#footer3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#footer3 button{
+    width: auto;
+    height: auto;
+    position: relative;
+    background: transparent;
+    border: none;
+}
+
+#footer3 button img{
+    width: 30px;
+    height: 30px;
+    size: 50%;
+    position: relative;
+}
+
+#footer3 button img:hover{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(25, 97, 43);
+}
+
+#footer3 h1{
+    padding-bottom: 20px;
+    color: rgb(25, 97, 43);
+}
+
+#footer3-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
