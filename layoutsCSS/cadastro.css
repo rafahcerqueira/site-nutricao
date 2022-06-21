@@ -169,7 +169,7 @@ fieldset.grupo .campo {
     justify-content: space-around;
     padding: 2em;
     border-bottom: 0.4px solid #FFFF;
-    background-color: #8ad37c;
+    background-color:#60da48;
 }
 
 .cabecalho-imagem{
@@ -208,7 +208,7 @@ nav ul{
 #ul-cabecalho li:hover ul{
     display: flex;
     flex-direction: column;
-    background-color: #8ad37c;
+    background-color:#60da48;
 }
 
 nav ul ul{
@@ -220,7 +220,7 @@ nav ul ul{
     margin-top: 7em;
     padding: auto;
     border-top: 0.4px solid #FFFF;
-    background-color: #8ad37c;
+    background-color:#60da48;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -239,7 +239,7 @@ aside{
 }
 
 .header{
-    background-color:  #8ad37c;
+    background-color: #60da48;
     height: 560px;
     position: absolute;
     width: 100%;
