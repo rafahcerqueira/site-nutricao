@@ -12,15 +12,6 @@ function toggleMenu(event){
 burguer.addEventListener('click', toggleMenu); 
 burguer.addEventListener('touchstart', toggleMenu);
 
-/*var show = true;
-
-const menuSection = document.querySelector(".menu-burguer");
-const menuBurguer = menuSection.querySelector(".menu-burguer");
-
-menuBurguer.addEventListener("click", () => {
-    menuSection.classList.toggle("on", show)
-    show = !show
-})*/
 
 function redirecionarWpp(){
     window.open("https://wa.me/5515991097077");
